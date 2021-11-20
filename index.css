@@ -1,0 +1,143 @@
+:root{
+    --color-white: #f0f0f0;
+    --color-white-bg: #fff;
+    --color-black: #000;
+    --color-light-black: #172337;
+    --color-brand-orange: #fb641b;
+    --color-brand-blue: #2874f0;
+}
+body,html{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    height: 256px;
+}
+.top{
+    padding-top: 10px;
+    height:56px;
+    background-color: var(--color-brand-blue);
+    display: flex;
+    justify-content: space-around;
+}
+.top span{
+    font-size: 11px ;
+    color: #f0f0f0;
+    font-style: italic;
+    
+
+}
+.plus{
+    color:#ffe500;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.top form{
+    display: flex;
+    margin-left: 10px;
+}
+.top input{
+    width: 521px;
+    height: 36px;
+    padding: 16px ;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+.left{
+    display: flex;
+}
+.left button{
+    width: 42px;
+    height: 36px;
+    border: none;
+    padding: 4 12 0 8;
+    margin: 0;
+    border-radius: 0;
+    background-color: var(--color-white);
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo2{
+    display: inline-block;
+    height: 12px;
+}
+/* dropdown */
+    /* Style The Dropdown Button */
+    /* .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    /* .login-dropdown {
+        position: relative;
+        display: inline-block;
+    } */
+    
+    /* Dropdown Content (Hidden by Default) */
+    /* .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    } */
+    
+    /* Links inside the dropdown */
+    /* .dropdown-content span {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    } */
+    
+    /* Change color of dropdown links on hover */
+    /* .dropdown-content span:hover {background-color: #f1f1f1} */ 
+    
+    /* Show the dropdown menu on hover 
+    .login-dropdown:hover .dropdown-content {
+        display: block;
+    } */
+    
+    /*Change the background color of the dropdown button when the dropdown content is shown */
+    /* .login-dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    } */
+.btm{
+    display: flex;
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 40px;
+}
+.cardcategory img{
+    
+    height: 120px;
+}
+.cardcategory {
+    margin-left: 8px;
+    height: 120px;
+    
+}
+.titlecard{
+    text-align: center;
+}
